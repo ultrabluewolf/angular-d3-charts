@@ -123,6 +123,11 @@ ng.module('d3.donut.directives')
         var generateDonut = function (opts) {
 
           opts.element = '[donut-progress]';
+          
+          if (linkAttr.id) {
+            opts.element = "#" + linkAttr.id;
+          }
+
           opts.display = opts.data;
           opts.percent = ( opts.data / opts.max ) * 100;
           opts.text_y = ".35em";

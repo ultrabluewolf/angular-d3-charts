@@ -20,3 +20,23 @@
 [donut-progress] path.color1 {
   fill: #35526b;
 }
+
+/* customize individual charts... */
+
+#chart text {
+
+}
+
+#chart path.color0 {
+
+}
+
+#another-chart text {
+
+}
+
+#another-chart path.color0 {
+
+}
+
+/* etc... */
